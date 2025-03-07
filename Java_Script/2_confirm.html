@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm</title>
+</head>
+<body>
+    <h3>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, hic aliquam sunt molestias error commodi qui corrupti reiciendis libero similique dicta iste harum dolore quidem, facilis alias! Beatae, doloribus minus.
+    </h3>
+    <hr>
+    <p>
+        <a href="success.html" onclick="return confirmation();">Confirm Payment</a>
+    </p>
+    <script>
+
+        function confirmation(){
+            //alert("hii");
+        let response = confirm("are you sure??") 
+        if(response==true){
+            //alert("Done Thank You");
+            return true;
+        }
+        else
+        {
+            //alert("error");
+            return false;
+        }
+        }
+    </script>
+</body>
+</html>
